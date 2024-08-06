@@ -9,7 +9,7 @@ An admin dashboard allows at-a-glance access to the crucial information for the 
 - Security and Permissions
 - CRUD functionality or management.
 
-Live URL: https://react-admin-dashboard-virid.vercel.app
+Live URL: https://react-dashboard-cq160wp38-umar-abdul-azeezs-projects.vercel.app
 
 
 
