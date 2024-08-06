@@ -1,0 +1,148 @@
+// // .chart_sec {
+// //   display: grid;
+// //   grid-template-columns: 100%;
+// //   box-sizing: border-box;
+// //   // background:#252535;
+
+// //   .title {
+// //     color: grey;
+// //     font-size: 18px;
+// //   }
+
+// //   .strokee {
+// //     stroke: rgb(228, 225, 225);
+// //   }
+// // }
+
+
+// .chart_sec {
+//   // background: #252535;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 20px;
+// }
+
+// .chart_card {
+//   width: 1830%;
+//   // max-width: 850px;
+//   // background-color: white;
+//   background: #252535;
+
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//   border-radius: 10px;
+//   padding: 20px;
+//   box-sizing: border-box;
+// }
+
+// .title {
+//   text-align: center;
+//   font-size: 1.2em;
+//   margin-bottom: 20px;
+//   color:white;
+// }
+
+// .strokee {
+//   stroke: #ccc;
+//   color: white;
+// }
+
+
+.chart_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: -15px;
+}
+
+.chart_card {
+  width: 1830%;
+  max-width: 1830px;
+  background: #252535;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: left;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.strokee {
+  stroke: #ccc;
+  color: white;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .chart_sec {
+    padding: 10px;
+  }
+
+  .chart_card {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+}
+
+/* Media query for small mobile devices */
+@media (max-width: 480px) {
+  .chart_sec {
+    padding: 5px;
+  }
+
+  .chart_card {
+    padding: 10px;
+    width: 103%;
+
+  }
+
+  .title {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+}
+
+/* Media query for screens with a maximum width of 820px */
+@media (max-width: 820px) {
+  .chart_sec {
+    padding: 10px;
+  }
+
+  .chart_card {
+    padding: 12px;
+    width: 105%; /* Adjust the width as needed */
+  }
+
+  .title {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+}
+
+/* Media query for screens with a maximum width of 1180px */
+@media (max-width: 1180px) {
+  .chart_sec {
+    padding: 15px;
+  }
+
+  .chart_card {
+    padding: 14px;
+    width: 102%; /* Adjust the width as needed */
+  }
+
+  .title {
+    font-size: 1.1em;
+    margin-bottom: 18px;
+  }
+}

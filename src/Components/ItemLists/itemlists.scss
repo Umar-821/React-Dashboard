@@ -1,0 +1,62 @@
+.item_listss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  background-color:#252535;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .left_section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: auto; // Push the right section to the right
+
+    .icon {
+      font-size: 40px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      margin: 0;
+      margin-bottom: 5px;
+    }
+
+    .counts {
+      font-size: 24px;
+      font-weight: 700;
+      color: white;
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+  }
+
+  .right_section {
+    display: flex;
+    align-items: center;
+
+    .persentage {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: #4caf50;
+      margin-left: 20px;
+    }
+
+    .persentage svg {
+      margin-right: 5px;
+    }
+  }
+}

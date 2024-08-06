@@ -1,0 +1,53 @@
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+
+    .feedback_item {
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+        .feedback_header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .customer_name {
+                font-size: 16px;
+                font-weight: 600;
+                color: #333;
+            }
+
+            .stars {
+                display: flex;
+                gap: 2px;
+
+                .star {
+                    font-size: 20px;
+                    color: #ffd700; // Gold color for stars
+
+                    &.filled {
+                        color: #ffd700;
+                    }
+
+                    &.outlined {
+                        color: #ddd;
+                    }
+                }
+            }
+        }
+
+        .review {
+            font-size: 14px;
+            color: #555;
+        }
+    }
+}
